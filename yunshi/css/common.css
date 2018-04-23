@@ -1,0 +1,146 @@
+html, body { height: 100%; }
+.no-padding { padding: 0px !important; }
+.no-margin { margin: 0px !important; }
+.no-order { padding: 100px 0px; }
+.pagelist{ text-align:center; padding-top:50px;}
+.pagelist li{ margin:0px; padding:0px;}
+.pagelist a{ display:block; padding:5px 10px; border:1px #39b2d6 solid; background:#fff;}
+.pagelist .hover{ background:#39b2d6; color:#fff;}
+.index_html { height: 100%; }
+.index_html .logo { background: #4083b6; text-align: center; height: 84px; line-height: 84px; }
+.index_html .logo img { width: 40%; }
+.index_html .left { position: fixed; height: 100%; background: #2064a3; z-index: 999; }
+.index_html .left .nav { }
+.index_html .left .nav li { text-align: center; }
+.index_html .left .nav a { color: #fff; text-align: center; line-height: 45px; display: block; font-size: 1.3em; }
+.index_html .left .nav a:hover, .index_html .left .nav a:focus { background: #39b2ff; }
+.index_html .right { }
+.index_html .row { height: 100%; }
+.index_html .row .right { height: 100%; }
+.index_html .top { height: 84px; line-height: 84px; background: #f9fafb; position: fixed; width: 100%; left: 0px; z-index: 998; }
+.index_html .top img { vertical-align: middle; margin-right: 15px; }
+.index_html .top .col-md-5 { text-align: right; }
+.index_html .top .col-md-5>span { margin-right: 30px; }
+.index_html .iframe { display: block; border: 0px; height: 100%; width: 100%; margin-top: 84px; }
+.main_html { height: 100%; }
+.main_html .bottom { padding: 0px 15px; background: #f7f9fa; height: 100%; }
+.main_html .bottom .box { background: #fff; padding: 15px; margin-top: 30px; }
+.main_html .bottom .bao { color: #69d29b; }
+.main_html .bottom .order { padding-bottom: 15px; border-bottom: 1px #dbdbdb solid; }
+.main_html .bottom .order a { position: relative; display: block; }
+.main_html .bottom .order strong { color: #fa5658; font-weight: bold; top: -0.5em; position: absolute; }
+.main_html .bottom .dl_list { background: #fff; padding: 15px; margin-bottom: 30px; }
+.main_html .bottom .dl_list dt { border-left: 2px solid #fa7458; text-indent: 1em; margin-bottom: 15px; position: relative; }
+.main_html .bottom .dl_list dt a { position: absolute; right: 15px; color: #00baff; cursor: pointer; }
+.main_html .bottom .gonggao dd { text-indent: 1em; margin-bottom: 15px; }
+.main_html .bottom .beiwang dd { text-indent: 1em; margin-bottom: 15px; text-align: center; border-bottom: 1px #dbdbdb solid; line-height: 2em; }
+.main_html .bottom .chuli { }
+.main_html .bottom .chuli li { margin: 0px 10px; margin-bottom: 15px; line-height: 2.5em; position: relative; }
+.main_html .bottom .chuli li span { position: absolute; right: 10px; top: 0px; display: block; }
+.main_html .other { margin-top: 30px; }
+.main_html .datetimepicker-inline { width: 100% !important; padding: 0px !important; }
+.main_html .table-condensed { width: 100%; }
+.main_html .table-condensed .prev:before { content: "<"; }
+.main_html .table-condensed .next:before { content: ">"; }
+.main_html .table { margin-bottom: 0px; }
+.main_html .table>thead>tr>th { border-bottom: 1px #ddd solid; text-align: center; }
+.main_html .table>tbody>tr>th { text-align: center; }
+.main_html #datetimepicker { border-bottom: 2px #dbdbdb solid; }
+le>tbody>tr>th { text-align: center; }
+.main_html #datetimepicker { border-bottom: 2px #dbdbdb solid; }
+.caiwu_html { background: #f7f9fa; min-height: 100%; }
+.caiwu_html .col-md-2 { width: 11%; }
+.caiwu_html .col-md-offset-1 { margin-left: 4%; }
+.caiwu_html .col-md-9 { width: 85%; }
+.caiwu_html .zhangwu { background: #fff; margin-top: 30px; }
+.caiwu_html .zhangwu dt { border-left: 2px solid #40c57d; text-indent: 1em; margin: 20px 0px; }
+.caiwu_html .zhangwu dd { margin: 15px 0px; position: relative; cursor: pointer; }
+.caiwu_html .zhangwu dd span { position: absolute; right: 0px; transition: transform 0.4s; }
+.caiwu_html .zhangwu dd .hover { transform: rotate(90deg); }
+.caiwu_html .zhangwu dd ul { text-indent: 1em; }
+.caiwu_html .zhangwu dd li { margin-top: 15px; }
+.caiwu_html .tubiao { margin-top: 30px; background: #fff; padding: 15px; }
+.caiwu_html .jine { border: 1px #dbdbdb solid; margin-top: 15px !important; }
+.caiwu_html .jine span { display: block; margin-top: 5px; }
+.caiwu_html .jine h4 { text-indent: 2em; }
+.zhangdan_html { background: #f7f9fa; height: 100%; }
+.zhangdan_html .top { margin-top: 30px; }
+.zhangdan_html .tab>div { border-radius: 5px 5px 0px 0px; overflow: hidden; width: 100%; }
+.zhangdan_html .tab>div>button { border-radius: 0px; border: 0px; outline: none; }
+.zhangdan_html .state h5 { display: inline-block; margin: 0px; margin-right: 5%; }
+.zhangdan_html .state .yuan { display: inline-block; width: 7px; margin-right: 10px; height: 7px; border-radius: 100px; }
+.zhangdan_html .jine { border: 1px #dbdbdb solid; }
+.zhangdan_html .jine span { display: block; margin-top: 5px; }
+.zhangdan_html .jine h4 { text-indent: 2em; }
+.zhangdan_html .bottom { background: #fff; padding: 15px; }
+.zhangdan_html .form { padding: 15px; background: #eaf3f8; margin-top: 15px !important; }
+.zuwu_html { background: #f7f9fa; min-height: 100%; padding-bottom:30px;}
+.zuwu_html .xiaoqu_list { background: #fff; margin-top: 30px; }
+.zuwu_html .xiaoqu_list dt { border-left: 2px solid #40c57d; text-indent: 1em; margin: 20px 0px; }
+.zuwu_html .xiaoqu_list dd { margin: 15px 0px; position: relative; cursor: pointer; }
+.zuwu_html .xiaoqu_list dd span { position: absolute; right: 0px; transition: transform 0.4s; }
+.zuwu_html .xiaoqu_list dd .hover { transform: rotate(90deg); }
+.zuwu_html .xiaoqu_list dd ul { text-indent: 1em; }
+.zuwu_html .xiaoqu_list dd li { margin-top: 15px; }
+.zuwu_html .tubiao { margin-top: 30px; padding: 15px; }
+.zuwu_html .tubiao .top span { position: relative; padding-right: 15px; margin-right: 15px; }
+.zuwu_html .tubiao .top span strong { position: absolute; top: -0.5em; right: 0em; color: #00baff; }
+.zuwu_html .title{border-bottom:1px #dbdbdb solid; margin-bottom:20px !important; padding:10px 0px;}
+.zuwu_html .room_list>div>div { background: #FFF; box-shadow: 0px 0px 10px #dbdbdb; }
+.zuwu_html .room_list>.col-md-2>div { padding: 5px; border-left: 9px #35b7ee solid; overflow:hidden;position:relative;}
+.zuwu_html .room_list>.col-md-2>div .sanjiao{ width:50px; height:50px; background:#ee845a; text-indent:0.5em; line-height:30px;  position:absolute; right:-25px; top:-25px; transform:rotate(45deg);}
+.zuwu_html .room_list>.col-md-2>div .yellow{ background:#eaa900;}
+.zuwu_html .room_list>.col-md-2>div .red{ background:#ee845a;}
+.zuwu_html .room_list>.col-md-2>div .sanjiao span{ display:block; position:absolute; left:0px; bottom:10px; text-align:center;width:100%; text-indent:0px; width:100%; height:1em; color:#fff;}
+.zuwu_html .room_list>.col-md-2 { margin-bottom: 10px; }
+.zuwu_html .room_list>.room_hao>div { height: 70px; line-height: 35px; padding: 40px 0px; line-height:35px; box-sizing: content-box; }
+.zuwu_html .room_list>.room_hao>div .red{color:#ee845a;}
+.zuwu_html .room_list>.room_hao>.danpai { height: 50px; padding:10px 0px; line-height:25px; box-sizing: content-box; }
+.zuwu_html .community{ margin-top:30px;}
+.zuwu_html .community>.top{background:#fff; padding:15px;}
+.zuwu_html .community>.bottom{ margin-top:20px;}
+.zuwu_html .community .community-list{background:#fff; padding:15px;}
+.zuwu_html .community .community-list ul{ margin:0px;}
+.zuwu_html .community .community-list ul li { padding:5px 0px;}
+.zuwu_html .community .community-list ul li img{ height:1.4em;}
+.zuwu_html .community .community-info{}
+.zuwu_html .community .community-info>.top{ background:#fff; padding:15px;}
+.zuwu_html .community .community-info>.top label{ display:block; padding:5px 0px; font-size:1em; font-weight:normal;}
+.zuwu_html .community .community-info>.top label span{ color:#f38427;}
+.zuwu_html .community .community-info>.bottom{ padding:20px; background:#fff; margin-top:20px;}
+.zuwu_html .community .community-info>.bottom img{width:100%;}
+.room_info_html { background: #f7f9fa; min-height: 100%; padding-bottom:30px;}
+.room_info_html .form-horizontal{ background:#fff; margin:30px; padding:30px;}
+.room_guanli_html{ background: #f7f9fa; min-height: 100%; padding-bottom:30px;}
+.room_guanli_html .top{ background:#fff; padding:15px; margin:30px 0px;}
+.room_guanli_html .top .form-group{ margin-right:15px;}
+.room_guanli_html .bottom{ background:#fff; margin:30px 0px; padding:0px 15px;}
+.room_guanli_html .bottom ul{ margin:0px; border-bottom:1px #dbdbdb solid; padding:0px 15px;}
+.room_guanli_html .bottom ul li{ padding:15px 15px; color:#39b2ff; cursor:pointer;}
+.room_guanli_html .bottom ul .hover{background:#39b2ff; color:#fff;}
+.room_guanli_html .bottom .box{ border:1px #dbdbdb solid; margin-top:15px;}
+.room_guanli_html .bottom .box .title{ background:#f0f0f0; padding:15px; line-height:34px;}
+.room_guanli_html .bottom .box .title span{ cursor:pointer; line-height:34px;}
+.room_guanli_html .bottom .box .info{ padding:15px;}
+.room_guanli_html .bottom .jiage_table {}
+.room_guanli_html .bottom .jiage_table span{ color:#ea363d; display:block;}
+.room_guanli_html .bottom .jiage_table thead{background:#56c5ff; color:#fff;}
+.room_guanli_html .bottom .jiage_table tbody tr td:nth-of-type(1){ line-height:41px;}
+.room_guanli_html .bottom .jiage_table tbody tr td:nth-of-type(2){ line-height:41px;}
+.room_guanli_html .bottom .jiage_table tbody tr td:last-child{ line-height:41px;}
+.room_guanli_html .bottom .add_tiaojiafangyuan{ margin-left:20px; margin-bottom:20px;}
+.add_organization_html{ background: #f7f9fa; padding:30px; min-height:100%;}
+.add_organization_html>.row{ padding:15px; background:#70cefe; color:#fff;}
+.add_organization_html>.zuzhi_list{ background:#fff; margin:0px; margin-top:30px; padding:15px;}
+.add_organization_html>.zuzhi_list ul{ height:700px; overflow:scroll;}
+.add_organization_html>.zuzhi_list li{ line-height:32px;}
+.add_organization_html>.add_info{background:#fff; margin-top:30px; padding:15px; background:url(../images/ditu.png) no-repeat bottom; background-size:100% auto; height:700px;}
+.add_company_html{background: #f7f9fa; padding:30px; min-height:100%;}
+.add_company_html>.top{ padding:15px; background:#70cefe; color:#fff;}
+.add_company_html>.bottom{ padding:15px; background:#fff; color:#000;}
+.quanxian_html { background: #f7f9fa; min-height: 100%; padding-bottom:30px;}
+.quanxian_html>.top{ padding:15px; background:#70cefe; color:#fff; margin-top:30px !important;}
+.quanxian_html>.bottom{ padding:15px; background:#fff; color:#000;}
+.quanxian_html .jiben,.quanxian_html .guanli,.quanxian_html .shuju{ margin-top:30px;}
+.quanxian_html .jiben,.quanxian_html .guanli th{ border-bottom:1px;}
+.quanxian_html .jiben .radio-inline{ height:34px;}

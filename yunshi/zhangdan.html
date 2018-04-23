@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>无标题文档</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/common.css" rel="stylesheet">
+<link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid zhangdan_html">
+  <div class="row top">
+    <div class="col-md-3 tab text-left">
+      <div>
+        <button type="button" class="btn col-md-4 btn-primary btn-sm active">待分配</button>
+        <button type="button" class="btn col-md-4 btn-default  btn-sm active">跟进中</button>
+        <button type="button" class="btn col-md-4 btn-default  btn-sm active">已完成</button>
+      </div>
+    </div>
+    <div class="col-md-6  col-md-offset-3 text-right state">
+      <h5><span class="yuan" style="background:#fa3633;"></span>紧急</h5>
+      <h5><span style="background:#fa9d25;" class="yuan"></span>正常</h5>
+      <h5><span style="background:#4bc886;" class="yuan"></span>延后</h5>
+      <button type="button" class="btn btn-primary btn-xs">添加新客</button>
+    </div>
+  </div>
+  <div class="row bottom no-margin">
+    <div class="row jine  no-margin">
+      <div class="col-md-3 no-padding">
+        <h4>当前租客<span style="color:#29bd6b;">0位</span></h4>
+      </div>
+      <div class="col-md-3  no-padding">
+        <h4 style="border-left:1px #dbdbdb solid; border-right:1px #dbdbdb solid;">紧位<span style="color:#fa5c38;">0位</span></h4>
+      </div>
+      <div class="col-md-3  no-padding">
+        <h4 style="border-right:1px #dbdbdb solid;">正常<span style=" color:#fa9610;">0位</span></h4>
+      </div>
+      <div class="col-md-3  no-padding">
+        <h4>延后<span style=" color:#29bd6b;">0位</span></h4>
+      </div>
+    </div>
+    <div class="row no-margin form-inline form">
+      <select class="form-control btn-sm">
+        <option>来源</option>
+      </select>
+      <select class="form-control btn-sm">
+  <option>状态</option>
+</select>
+<input type="text" style="margin-left:20px;" class="form-control btn-sm" name="startdate" id="startdate" value="起始日期"> - <input type="text" class="form-control btn-sm" id="overdate" value="结束日期">
+    </div>
+    <div class="row">
+    <div class="no-order text-center">
+    	<img src="images/order.png" width="100">
+    	<h4>未找到此账单，请核对信息后再试。</h4>
+     </div>
+    </div>
+  </div>
+</div>
+<script src="js/jquery.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/bootstrap-datetimepicker.js"></script> 
+<script>
+$('#startdate').datetimepicker();
+$('#overdate').datetimepicker();
+
+</script>
+</body>
+</html>

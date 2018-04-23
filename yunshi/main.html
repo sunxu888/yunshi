@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>无标题文档</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/common.css" rel="stylesheet">
+<link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid main_html">
+
+<div class="row bottom ">
+<div class="col-md-2  text-center box">
+  <h4><strong>我的经营情况</strong></h4>
+  <a href="#" class="btn-link">查看详情</a></div>
+<div class="col-md-5 col-md-offset-1  text-center box">
+  <div class="col-md-3 text-center ">
+    <h4> <a href="#" class="btn-link"><strong>0</strong></a></h4>
+    空置房间 </div>
+  <div class="col-md-3 text-center ">
+    <h4> <a href="#" class="btn-link"><strong>0</strong></a></h4>
+    已租房间 </div>
+  <div class="col-md-3 text-center ">
+    <h4> <a href="#" class="btn-link"><strong>0</strong></a></h4>
+    应收未收 </div>
+  <div class="col-md-3 text-center ">
+    <h4> <a href="#" class="btn-link"><strong>0</strong></a></h4>
+    今日收款 </div>
+</div>
+<div class="col-md-3 col-md-offset-1 text-center box">
+  <div class="col-md-6">
+    <h4><strong>17日</strong></h4>
+    <a href="#" class="bao">经营日报</a></div>
+  <div class="col-md-6">
+    <h4><strong>十一月</strong></h4>
+    <a href="#" class="bao">经营月报</a></div>
+</div>
+<div class="col-md-2 box no-padding">
+<div id="datetimepicker"></div>
+<ul class="list-unstyled chuli">
+	<li style="border-bottom:2px #fa5c38 solid;">所有逾期未处理<span>0</span></li>
+    <li style="border-bottom:2px #fa9400 solid;">今日到期<span>0</span></li>
+    <li style="border-bottom:2px #2cbe6d solid;">未来5天到期<span>0</span></li>
+</ul>
+</div>
+<div class="col-md-5 col-md-offset-1  text-center box">
+  <div class="row order"> <a href="#" class="col-md-3">应收账单 <strong> 0</strong></a> <a href="#" class="col-md-3">应付账单 <strong> 0</strong></a> <a href="#" class="col-md-3">租客合同 <strong> 0</strong></a> <a href="#" class="col-md-3">业主合同 <strong> 0</strong></a> </div>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>状态</th>
+        <th>到期时间</th>
+        <th>房间</th>
+        <th>租客姓名</th>
+        <th>金额</th>
+        <th>操作</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>好</th>
+        <td>2017-12-30</td>
+        <td>A栋308</td>
+        <td>孙旭</td>
+        <th>888/天</th>
+        <td><button class="btn btn-xs btn-success">续租</button>
+          <button class="btn btn-xs btn-danger">退房</button></td>
+      </tr>
+      <tr>
+        <th>好</th>
+        <td>2017-12-30</td>
+        <td>A栋308</td>
+        <td>孙旭</td>
+        <th>888/天</th>
+        <td><button class="btn btn-xs btn-success">续租</button>
+          <button class="btn btn-xs btn-danger">退房</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="col-md-3 col-md-offset-1 other no-padding">
+<dl class="dl_list">
+<dt>公告</dt>
+<dd><a href="#">1.月预约远程在线培训服务</a></dd>
+<dd><a href="#">2.月预约远程在线培训服务</a></dd>
+<dd><a href="#">3.月预约远程在线培训服务</a></dd>
+<dd><a href="#">4.月预约远程在线培训服务</a></dd>
+<dd><a href="#">5.月预约远程在线培训服务</a></dd>
+<dd><a href="#">6.月预约远程在线培训服务</a></dd>
+</dl>
+
+<dl class="dl_list beiwang">
+<dt>备忘事项 <a class="glyphicon glyphicon-pencil"></a></dt>
+<dd>0个已完成 <a href="#">显示</a></dd>
+
+</dl>
+</div>
+
+</div>
+</div>
+<script src="js/jquery.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/bootstrap-datetimepicker.js"></script> 
+<script>
+$('#datetimepicker').datetimepicker();
+</script>
+</body>
+</html>
